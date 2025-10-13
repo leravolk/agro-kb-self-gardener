@@ -1,6 +1,6 @@
 import { Card, CardContent } from "@/components/ui/card";
 import { TrendingUp, Award, Users } from "lucide-react";
-import vegetables from "@/assets/vegetables.jpg";
+import harvestMix from "@/assets/harvest-mix.jpg";
 
 const results = [
   {
@@ -10,7 +10,7 @@ const results = [
   },
   {
     icon: Award,
-    value: "5 лет",
+    value: "6 лет",
     label: "Успешной работы на рынке"
   },
   {
@@ -56,8 +56,8 @@ const Expertise = () => {
 
         <div className="relative rounded-2xl overflow-hidden shadow-2xl max-w-4xl mx-auto">
           <img 
-            src={vegetables} 
-            alt="Урожай свежих овощей" 
+            src={harvestMix} 
+            alt="Урожай моркови, капусты и свеклы" 
             className="w-full h-[400px] object-cover"
           />
           <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent flex items-end">
