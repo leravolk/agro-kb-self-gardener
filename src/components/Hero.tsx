@@ -16,7 +16,7 @@ const Hero = () => {
           alt="Аграрные поля Кабардино-Балкарии" 
           className="w-full h-full object-cover"
         />
-        <div className="absolute inset-0 bg-gradient-to-br from-primary/90 via-primary/80 to-primary/70" />
+        <div className="absolute inset-0 bg-gradient-to-br from-primary/60 via-primary/50 to-primary/40" />
       </div>
 
       {/* Content */}
