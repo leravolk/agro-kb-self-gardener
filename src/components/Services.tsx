@@ -1,5 +1,5 @@
 import { Card, CardContent } from "@/components/ui/card";
-import { Sprout, ShoppingCart, Leaf, UserCheck } from "lucide-react";
+import { Sprout, ShoppingCart, ClipboardCheck, UserCheck } from "lucide-react";
 
 const services = [
   {
@@ -13,9 +13,9 @@ const services = [
     description: "Стабильные поставки качественных овощей для торговых сетей и оптовых покупателей"
   },
   {
-    icon: Leaf,
-    title: "Подбор семян и удобрений",
-    description: "Экспертный подбор посадочного материала и удобрений под конкретные условия и задачи хозяйства"
+    icon: ClipboardCheck,
+    title: "Контроль качества урожая",
+    description: "Постоянный контроль состояния посевов и зрелости овощей на всех этапах производства"
   },
   {
     icon: UserCheck,
