@@ -168,9 +168,15 @@ const Expertise = () => {
               </div>
             </CarouselItem>
           </CarouselContent>
-          <CarouselPrevious />
-          <CarouselNext />
+          <CarouselPrevious className="hidden md:flex" />
+          <CarouselNext className="hidden md:flex" />
         </Carousel>
+        
+        {/* Mobile navigation arrows */}
+        <div className="flex md:hidden justify-center gap-4 mt-6">
+          <CarouselPrevious className="static translate-y-0 h-8 w-8" />
+          <CarouselNext className="static translate-y-0 h-8 w-8" />
+        </div>
       </div>
     </section>
   );

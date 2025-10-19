@@ -10,7 +10,7 @@ const Contact = () => {
             Свяжитесь с нами
           </h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-            Ответим на ваши вопросы и подберём решение для вашего хозяйства
+            ответим на все ваши вопросы
           </p>
         </div>
 
