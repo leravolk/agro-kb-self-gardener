@@ -7,13 +7,13 @@ import {
   CarouselNext,
   CarouselPrevious,
 } from "@/components/ui/carousel";
-import fieldSpraying from "@/assets/field-spraying.jpg";
-import carrotHarvest from "@/assets/carrot-harvest.jpg";
-import teamHarvest from "@/assets/team-harvest.jpg";
-import carrotBox from "@/assets/carrot-box.jpg";
-import radishSoil from "@/assets/radish-soil.jpg";
-import youngCrops from "@/assets/young-crops.jpg";
-import cabbageField from "@/assets/cabbage-field.jpg";
+import photo1 from "@/assets/photo-1.jpg";
+import photo2 from "@/assets/photo-2.jpg";
+import photo3 from "@/assets/photo-3.jpg";
+import photo4 from "@/assets/photo-4.jpg";
+import photo5 from "@/assets/photo-5.jpg";
+import photo6 from "@/assets/photo-6.jpg";
+import photo7 from "@/assets/photo-7.jpg";
 
 const results = [
   {
@@ -67,28 +67,14 @@ const Expertise = () => {
           })}
         </div>
 
-        <Carousel className="max-w-4xl mx-auto">
+        <Carousel className="max-w-2xl mx-auto">
           <CarouselContent>
             <CarouselItem>
-              <div className="relative rounded-2xl overflow-hidden shadow-2xl bg-black">
+              <div className="relative aspect-square rounded-2xl overflow-hidden shadow-2xl">
                 <img 
-                  src={fieldSpraying} 
-                  alt="Обработка полей" 
-                  className="w-full max-h-[600px] object-contain"
-                />
-                <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/80 to-transparent p-6">
-                  <p className="text-white text-lg font-medium">
-                    Современная техника для обработки полей
-                  </p>
-                </div>
-              </div>
-            </CarouselItem>
-            <CarouselItem>
-              <div className="relative rounded-2xl overflow-hidden shadow-2xl bg-black">
-                <img 
-                  src={carrotHarvest} 
+                  src={photo1} 
                   alt="Урожай моркови" 
-                  className="w-full max-h-[600px] object-contain"
+                  className="w-full h-full object-cover"
                 />
                 <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/80 to-transparent p-6">
                   <p className="text-white text-lg font-medium">
@@ -98,25 +84,39 @@ const Expertise = () => {
               </div>
             </CarouselItem>
             <CarouselItem>
-              <div className="relative rounded-2xl overflow-hidden shadow-2xl bg-black">
+              <div className="relative aspect-square rounded-2xl overflow-hidden shadow-2xl">
                 <img 
-                  src={teamHarvest} 
-                  alt="Команда за работой" 
-                  className="w-full max-h-[600px] object-contain"
+                  src={photo2} 
+                  alt="Обработка полей" 
+                  className="w-full h-full object-cover"
                 />
                 <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/80 to-transparent p-6">
                   <p className="text-white text-lg font-medium">
-                    Наша команда во время сборки урожая
+                    Современная техника для обработки полей
                   </p>
                 </div>
               </div>
             </CarouselItem>
             <CarouselItem>
-              <div className="relative rounded-2xl overflow-hidden shadow-2xl bg-black">
+              <div className="relative aspect-square rounded-2xl overflow-hidden shadow-2xl">
                 <img 
-                  src={carrotBox} 
+                  src={photo3} 
+                  alt="Капуста на поле" 
+                  className="w-full h-full object-cover"
+                />
+                <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/80 to-transparent p-6">
+                  <p className="text-white text-lg font-medium">
+                    Выращивание капусты в Кабардино-Балкарии
+                  </p>
+                </div>
+              </div>
+            </CarouselItem>
+            <CarouselItem>
+              <div className="relative aspect-square rounded-2xl overflow-hidden shadow-2xl">
+                <img 
+                  src={photo4} 
                   alt="Упакованная морковь" 
-                  className="w-full max-h-[600px] object-contain"
+                  className="w-full h-full object-cover"
                 />
                 <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/80 to-transparent p-6">
                   <p className="text-white text-lg font-medium">
@@ -126,25 +126,11 @@ const Expertise = () => {
               </div>
             </CarouselItem>
             <CarouselItem>
-              <div className="relative rounded-2xl overflow-hidden shadow-2xl bg-black">
+              <div className="relative aspect-square rounded-2xl overflow-hidden shadow-2xl">
                 <img 
-                  src={radishSoil} 
-                  alt="Редис в почве" 
-                  className="w-full max-h-[600px] object-contain"
-                />
-                <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/80 to-transparent p-6">
-                  <p className="text-white text-lg font-medium">
-                    Свежий урожай редиса прямо с поля
-                  </p>
-                </div>
-              </div>
-            </CarouselItem>
-            <CarouselItem>
-              <div className="relative rounded-2xl overflow-hidden shadow-2xl bg-black">
-                <img 
-                  src={youngCrops} 
+                  src={photo5} 
                   alt="Молодые посадки" 
-                  className="w-full max-h-[600px] object-contain"
+                  className="w-full h-full object-cover"
                 />
                 <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/80 to-transparent p-6">
                   <p className="text-white text-lg font-medium">
@@ -154,15 +140,29 @@ const Expertise = () => {
               </div>
             </CarouselItem>
             <CarouselItem>
-              <div className="relative rounded-2xl overflow-hidden shadow-2xl bg-black">
+              <div className="relative aspect-square rounded-2xl overflow-hidden shadow-2xl">
                 <img 
-                  src={cabbageField} 
-                  alt="Капуста на поле" 
-                  className="w-full max-h-[600px] object-contain"
+                  src={photo6} 
+                  alt="Команда за работой" 
+                  className="w-full h-full object-cover"
                 />
                 <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/80 to-transparent p-6">
                   <p className="text-white text-lg font-medium">
-                    Выращивание капусты в Кабардино-Балкарии
+                    Наша команда во время сборки урожая
+                  </p>
+                </div>
+              </div>
+            </CarouselItem>
+            <CarouselItem>
+              <div className="relative aspect-square rounded-2xl overflow-hidden shadow-2xl">
+                <img 
+                  src={photo7} 
+                  alt="Редис в почве" 
+                  className="w-full h-full object-cover"
+                />
+                <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/80 to-transparent p-6">
+                  <p className="text-white text-lg font-medium">
+                    Свежий урожай редиса прямо с поля
                   </p>
                 </div>
               </div>
