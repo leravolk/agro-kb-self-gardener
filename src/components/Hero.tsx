@@ -22,13 +22,10 @@ const Hero = () => {
       {/* Content */}
       <div className="relative z-10 container mx-auto px-4 text-center text-white">
         <h1 className="text-5xl md:text-7xl font-bold mb-6 text-balance animate-fade-in">
-          Сам себе агроном
+          Sam sebe agronom
         </h1>
-        <p className="text-2xl md:text-3xl mb-4 font-medium opacity-95">
-          Выращиваем. Продаём. Консультируем.
-        </p>
-        <p className="text-lg md:text-xl mb-8 max-w-2xl mx-auto opacity-90 leading-relaxed">
-          Мы выращиваем овощи и предоставляем агроэкспертизу — от земли до готового урожая
+        <p className="text-2xl md:text-3xl mb-8 font-medium opacity-95">
+          От поля — к прилавку.
         </p>
         <Button 
           size="lg" 

@@ -36,7 +36,7 @@ const Navigation = () => {
             }`}
             onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
           >
-            Сам себе агроном
+            Sam sebe agronom
           </div>
 
           {/* Desktop Menu */}
