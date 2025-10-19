@@ -82,7 +82,7 @@ const Expertise = () => {
                   className="w-full h-full object-cover"
                 />
                 <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/80 to-transparent p-6">
-                  <p className="text-white text-lg font-medium">
+                  <p className="text-white text-sm md:text-lg font-medium">
                     Сбор урожая моркови на наших полях
                   </p>
                 </div>
@@ -96,7 +96,7 @@ const Expertise = () => {
                   className="w-full h-full object-cover"
                 />
                 <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/80 to-transparent p-6">
-                  <p className="text-white text-lg font-medium">
+                  <p className="text-white text-sm md:text-lg font-medium">
                     Современная техника для обработки полей
                   </p>
                 </div>
@@ -110,7 +110,7 @@ const Expertise = () => {
                   className="w-full h-full object-cover"
                 />
                 <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/80 to-transparent p-6">
-                  <p className="text-white text-lg font-medium">
+                  <p className="text-white text-sm md:text-lg font-medium">
                     Выращивание капусты в Кабардино-Балкарии
                   </p>
                 </div>
@@ -124,7 +124,7 @@ const Expertise = () => {
                   className="w-full h-full object-cover"
                 />
                 <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/80 to-transparent p-6">
-                  <p className="text-white text-lg font-medium">
+                  <p className="text-white text-sm md:text-lg font-medium">
                     Свежая морковь готова к отправке
                   </p>
                 </div>
@@ -138,7 +138,7 @@ const Expertise = () => {
                   className="w-full h-full object-cover"
                 />
                 <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/80 to-transparent p-6">
-                  <p className="text-white text-lg font-medium">
+                  <p className="text-white text-sm md:text-lg font-medium">
                     Молодые посадки на наших землях
                   </p>
                 </div>
@@ -152,7 +152,7 @@ const Expertise = () => {
                   className="w-full h-full object-cover"
                 />
                 <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/80 to-transparent p-6">
-                  <p className="text-white text-lg font-medium">
+                  <p className="text-white text-sm md:text-lg font-medium">
                     Наша команда во время сборки урожая
                   </p>
                 </div>
@@ -166,7 +166,7 @@ const Expertise = () => {
                   className="w-full h-full object-cover"
                 />
                 <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/80 to-transparent p-6">
-                  <p className="text-white text-lg font-medium">
+                  <p className="text-white text-sm md:text-lg font-medium">
                     Свежий урожай редиса прямо с поля
                   </p>
                 </div>
