@@ -70,11 +70,11 @@ const Expertise = () => {
         <Carousel className="max-w-4xl mx-auto">
           <CarouselContent>
             <CarouselItem>
-              <div className="relative rounded-2xl overflow-hidden shadow-2xl">
+              <div className="relative rounded-2xl overflow-hidden shadow-2xl bg-black">
                 <img 
                   src={fieldSpraying} 
                   alt="Обработка полей" 
-                  className="w-full h-[500px] object-cover"
+                  className="w-full max-h-[600px] object-contain"
                 />
                 <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/80 to-transparent p-6">
                   <p className="text-white text-lg font-medium">
@@ -84,11 +84,11 @@ const Expertise = () => {
               </div>
             </CarouselItem>
             <CarouselItem>
-              <div className="relative rounded-2xl overflow-hidden shadow-2xl">
+              <div className="relative rounded-2xl overflow-hidden shadow-2xl bg-black">
                 <img 
                   src={carrotHarvest} 
                   alt="Урожай моркови" 
-                  className="w-full h-[500px] object-cover"
+                  className="w-full max-h-[600px] object-contain"
                 />
                 <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/80 to-transparent p-6">
                   <p className="text-white text-lg font-medium">
@@ -98,11 +98,11 @@ const Expertise = () => {
               </div>
             </CarouselItem>
             <CarouselItem>
-              <div className="relative rounded-2xl overflow-hidden shadow-2xl">
+              <div className="relative rounded-2xl overflow-hidden shadow-2xl bg-black">
                 <img 
                   src={teamHarvest} 
                   alt="Команда за работой" 
-                  className="w-full h-[500px] object-cover"
+                  className="w-full max-h-[600px] object-contain"
                 />
                 <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/80 to-transparent p-6">
                   <p className="text-white text-lg font-medium">
@@ -112,11 +112,11 @@ const Expertise = () => {
               </div>
             </CarouselItem>
             <CarouselItem>
-              <div className="relative rounded-2xl overflow-hidden shadow-2xl">
+              <div className="relative rounded-2xl overflow-hidden shadow-2xl bg-black">
                 <img 
                   src={carrotBox} 
                   alt="Упакованная морковь" 
-                  className="w-full h-[500px] object-cover"
+                  className="w-full max-h-[600px] object-contain"
                 />
                 <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/80 to-transparent p-6">
                   <p className="text-white text-lg font-medium">
@@ -126,11 +126,11 @@ const Expertise = () => {
               </div>
             </CarouselItem>
             <CarouselItem>
-              <div className="relative rounded-2xl overflow-hidden shadow-2xl">
+              <div className="relative rounded-2xl overflow-hidden shadow-2xl bg-black">
                 <img 
                   src={radishSoil} 
                   alt="Редис в почве" 
-                  className="w-full h-[500px] object-cover"
+                  className="w-full max-h-[600px] object-contain"
                 />
                 <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/80 to-transparent p-6">
                   <p className="text-white text-lg font-medium">
@@ -140,11 +140,11 @@ const Expertise = () => {
               </div>
             </CarouselItem>
             <CarouselItem>
-              <div className="relative rounded-2xl overflow-hidden shadow-2xl">
+              <div className="relative rounded-2xl overflow-hidden shadow-2xl bg-black">
                 <img 
                   src={youngCrops} 
                   alt="Молодые посадки" 
-                  className="w-full h-[500px] object-cover"
+                  className="w-full max-h-[600px] object-contain"
                 />
                 <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/80 to-transparent p-6">
                   <p className="text-white text-lg font-medium">
@@ -154,11 +154,11 @@ const Expertise = () => {
               </div>
             </CarouselItem>
             <CarouselItem>
-              <div className="relative rounded-2xl overflow-hidden shadow-2xl">
+              <div className="relative rounded-2xl overflow-hidden shadow-2xl bg-black">
                 <img 
                   src={cabbageField} 
                   alt="Капуста на поле" 
-                  className="w-full h-[500px] object-cover"
+                  className="w-full max-h-[600px] object-contain"
                 />
                 <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/80 to-transparent p-6">
                   <p className="text-white text-lg font-medium">
