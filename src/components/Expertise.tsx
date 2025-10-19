@@ -97,7 +97,7 @@ const Expertise = () => {
                 />
                 <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/80 to-transparent p-6">
                   <p className="text-white text-sm md:text-lg font-medium">
-                    Современная техника для обработки полей
+                    Современная техника<br />для обработки полей
                   </p>
                 </div>
               </div>
@@ -111,7 +111,7 @@ const Expertise = () => {
                 />
                 <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/80 to-transparent p-6">
                   <p className="text-white text-sm md:text-lg font-medium">
-                    Выращивание капусты в Кабардино-Балкарии
+                    Выращивание капусты<br />в Кабардино-Балкарии
                   </p>
                 </div>
               </div>
