@@ -21,8 +21,8 @@ import photo7 from "@/assets/photo-7.jpg";
 const results = [
   {
     icon: TrendingUp,
-    value: "+35%",
-    label: "Средний прирост урожайности у клиентов"
+    value: "4000+",
+    label: "Тонн овощей собрано за сезон"
   },
   {
     icon: Award,
