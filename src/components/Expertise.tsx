@@ -1,5 +1,7 @@
 import { Card, CardContent } from "@/components/ui/card";
-import { TrendingUp, Award, Users } from "lucide-react";
+import { TrendingUp, Award, Users, ChevronLeft, ChevronRight } from "lucide-react";
+import { useState } from "react";
+import { type CarouselApi } from "@/components/ui/carousel";
 import {
   Carousel,
   CarouselContent,
@@ -7,6 +9,7 @@ import {
   CarouselNext,
   CarouselPrevious,
 } from "@/components/ui/carousel";
+import { Button } from "@/components/ui/button";
 import photo1 from "@/assets/photo-1.jpg";
 import photo2 from "@/assets/photo-2.jpg";
 import photo3 from "@/assets/photo-3.jpg";
@@ -34,6 +37,8 @@ const results = [
 ];
 
 const Expertise = () => {
+  const [api, setApi] = useState<CarouselApi>();
+
   return (
     <section className="py-20 bg-background">
       <div className="container mx-auto px-4">
@@ -67,7 +72,7 @@ const Expertise = () => {
           })}
         </div>
 
-        <Carousel className="max-w-2xl mx-auto">
+        <Carousel className="max-w-2xl mx-auto" setApi={setApi}>
           <CarouselContent>
             <CarouselItem>
               <div className="relative aspect-square rounded-2xl overflow-hidden shadow-2xl">
@@ -174,8 +179,22 @@ const Expertise = () => {
         
         {/* Mobile navigation arrows */}
         <div className="flex md:hidden justify-center gap-4 mt-6">
-          <CarouselPrevious className="static translate-y-0 h-8 w-8" />
-          <CarouselNext className="static translate-y-0 h-8 w-8" />
+          <Button
+            variant="outline"
+            size="icon"
+            className="h-8 w-8"
+            onClick={() => api?.scrollPrev()}
+          >
+            <ChevronLeft className="h-4 w-4" />
+          </Button>
+          <Button
+            variant="outline"
+            size="icon"
+            className="h-8 w-8"
+            onClick={() => api?.scrollNext()}
+          >
+            <ChevronRight className="h-4 w-4" />
+          </Button>
         </div>
       </div>
     </section>
