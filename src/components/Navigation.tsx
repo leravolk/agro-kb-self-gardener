@@ -31,9 +31,10 @@ const Navigation = () => {
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between h-20">
           <div 
-            className={`text-2xl font-bold font-serif cursor-pointer ${
+            className={`text-2xl font-bold cursor-pointer ${
               isScrolled ? "text-foreground" : "text-white"
             }`}
+            style={{ fontFamily: 'Helvetica, Arial, sans-serif' }}
             onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
           >
             Sam sebe agronom
@@ -41,7 +42,7 @@ const Navigation = () => {
 
           {/* Desktop Menu */}
           <div className="hidden md:flex items-center gap-8">
-            {["about", "services", "expertise", "team", "contact"].map((section) => (
+            {["about", "services", "expertise", "contact"].map((section) => (
               <button
                 key={section}
                 onClick={() => scrollToSection(section)}
@@ -54,7 +55,6 @@ const Navigation = () => {
                 {section === "about" && "О нас"}
                 {section === "services" && "Услуги"}
                 {section === "expertise" && "Результаты"}
-                {section === "team" && "Команда"}
                 {section === "contact" && "Контакты"}
               </button>
             ))}
@@ -83,7 +83,7 @@ const Navigation = () => {
         {isMobileMenuOpen && (
           <div className="md:hidden py-4 bg-background border-t border-border">
             <div className="flex flex-col gap-4">
-              {["about", "services", "expertise", "team", "contact"].map((section) => (
+              {["about", "services", "expertise", "contact"].map((section) => (
                 <button
                   key={section}
                   onClick={() => scrollToSection(section)}
@@ -92,7 +92,6 @@ const Navigation = () => {
                   {section === "about" && "О нас"}
                   {section === "services" && "Услуги"}
                   {section === "expertise" && "Результаты"}
-                  {section === "team" && "Команда"}
                   {section === "contact" && "Контакты"}
                 </button>
               ))}

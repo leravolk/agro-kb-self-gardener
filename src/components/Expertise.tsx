@@ -1,6 +1,19 @@
 import { Card, CardContent } from "@/components/ui/card";
 import { TrendingUp, Award, Users } from "lucide-react";
-import vegetables from "@/assets/vegetables.jpg";
+import {
+  Carousel,
+  CarouselContent,
+  CarouselItem,
+  CarouselNext,
+  CarouselPrevious,
+} from "@/components/ui/carousel";
+import fieldSpraying from "@/assets/field-spraying.jpg";
+import carrotHarvest from "@/assets/carrot-harvest.jpg";
+import teamHarvest from "@/assets/team-harvest.jpg";
+import carrotBox from "@/assets/carrot-box.jpg";
+import radishSoil from "@/assets/radish-soil.jpg";
+import youngCrops from "@/assets/young-crops.jpg";
+import cabbageField from "@/assets/cabbage-field.jpg";
 
 const results = [
   {
@@ -10,7 +23,7 @@ const results = [
   },
   {
     icon: Award,
-    value: "5 лет",
+    value: "6 лет",
     label: "Успешной работы на рынке"
   },
   {
@@ -54,23 +67,110 @@ const Expertise = () => {
           })}
         </div>
 
-        <div className="relative rounded-2xl overflow-hidden shadow-2xl max-w-4xl mx-auto">
-          <img 
-            src={vegetables} 
-            alt="Урожай свежих овощей" 
-            className="w-full h-[400px] object-cover"
-          />
-          <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent flex items-end">
-            <div className="p-8 text-white">
-              <p className="text-xl font-medium mb-2">
-                «Качество урожая говорит само за себя»
-              </p>
-              <p className="text-white/80">
-                Мы используем только проверенные методы и материалы
-              </p>
-            </div>
-          </div>
-        </div>
+        <Carousel className="max-w-4xl mx-auto">
+          <CarouselContent>
+            <CarouselItem>
+              <div className="relative rounded-2xl overflow-hidden shadow-2xl">
+                <img 
+                  src={fieldSpraying} 
+                  alt="Обработка полей" 
+                  className="w-full h-[500px] object-cover"
+                />
+                <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/80 to-transparent p-6">
+                  <p className="text-white text-lg font-medium">
+                    Современная техника для обработки полей
+                  </p>
+                </div>
+              </div>
+            </CarouselItem>
+            <CarouselItem>
+              <div className="relative rounded-2xl overflow-hidden shadow-2xl">
+                <img 
+                  src={carrotHarvest} 
+                  alt="Урожай моркови" 
+                  className="w-full h-[500px] object-cover"
+                />
+                <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/80 to-transparent p-6">
+                  <p className="text-white text-lg font-medium">
+                    Сбор урожая моркови на наших полях
+                  </p>
+                </div>
+              </div>
+            </CarouselItem>
+            <CarouselItem>
+              <div className="relative rounded-2xl overflow-hidden shadow-2xl">
+                <img 
+                  src={teamHarvest} 
+                  alt="Команда за работой" 
+                  className="w-full h-[500px] object-cover"
+                />
+                <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/80 to-transparent p-6">
+                  <p className="text-white text-lg font-medium">
+                    Наша команда во время сборки урожая
+                  </p>
+                </div>
+              </div>
+            </CarouselItem>
+            <CarouselItem>
+              <div className="relative rounded-2xl overflow-hidden shadow-2xl">
+                <img 
+                  src={carrotBox} 
+                  alt="Упакованная морковь" 
+                  className="w-full h-[500px] object-cover"
+                />
+                <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/80 to-transparent p-6">
+                  <p className="text-white text-lg font-medium">
+                    Свежая морковь готова к отправке
+                  </p>
+                </div>
+              </div>
+            </CarouselItem>
+            <CarouselItem>
+              <div className="relative rounded-2xl overflow-hidden shadow-2xl">
+                <img 
+                  src={radishSoil} 
+                  alt="Редис в почве" 
+                  className="w-full h-[500px] object-cover"
+                />
+                <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/80 to-transparent p-6">
+                  <p className="text-white text-lg font-medium">
+                    Свежий урожай редиса прямо с поля
+                  </p>
+                </div>
+              </div>
+            </CarouselItem>
+            <CarouselItem>
+              <div className="relative rounded-2xl overflow-hidden shadow-2xl">
+                <img 
+                  src={youngCrops} 
+                  alt="Молодые посадки" 
+                  className="w-full h-[500px] object-cover"
+                />
+                <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/80 to-transparent p-6">
+                  <p className="text-white text-lg font-medium">
+                    Молодые посадки на наших землях
+                  </p>
+                </div>
+              </div>
+            </CarouselItem>
+            <CarouselItem>
+              <div className="relative rounded-2xl overflow-hidden shadow-2xl">
+                <img 
+                  src={cabbageField} 
+                  alt="Капуста на поле" 
+                  className="w-full h-[500px] object-cover"
+                />
+                <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/80 to-transparent p-6">
+                  <p className="text-white text-lg font-medium">
+                    Выращивание капусты в Кабардино-Балкарии
+                  </p>
+                </div>
+              </div>
+            </CarouselItem>
+          </CarouselContent>
+          <CarouselPrevious />
+          <CarouselNext />
+        </Carousel>
       </div>
     </section>
   );

@@ -4,7 +4,7 @@ const Footer = () => {
       <div className="container mx-auto px-4">
         <div className="grid md:grid-cols-3 gap-8 mb-8">
           <div>
-            <h3 className="text-2xl font-bold mb-4 font-serif">Sam sebe agronom</h3>
+            <h3 className="text-2xl font-bold mb-4" style={{ fontFamily: 'Helvetica, Arial, sans-serif' }}>Sam sebe agronom</h3>
             <p className="text-primary-foreground/80 leading-relaxed">
               Аграрная компания в Кабардино-Балкарской Республике. 
               От поля — к прилавку с 2019 года.
