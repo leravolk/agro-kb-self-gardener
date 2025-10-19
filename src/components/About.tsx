@@ -1,4 +1,4 @@
-import greenhouse from "@/assets/greenhouse.jpg";
+import carrotField from "@/assets/photo-2.jpg";
 
 const About = () => {
   return (
@@ -42,8 +42,8 @@ const About = () => {
           </div>
           <div className="relative">
             <img 
-              src={greenhouse} 
-              alt="Теплицы и поля компании" 
+              src={carrotField} 
+              alt="Поля моркови компании" 
               className="rounded-2xl shadow-2xl w-full h-[500px] object-cover"
             />
             <div className="absolute inset-0 rounded-2xl ring-1 ring-inset ring-border/10" />
