@@ -17,6 +17,10 @@ import photo4 from "@/assets/photo-4.jpg";
 import photo5 from "@/assets/photo-5.jpg";
 import photo6 from "@/assets/photo-6.jpg";
 import photo7 from "@/assets/photo-7.jpg";
+import photo8 from "@/assets/photo-8.jpg";
+import photo9 from "@/assets/photo-9.jpg";
+import photo10 from "@/assets/photo-10.jpg";
+import photo11 from "@/assets/photo-11.jpg";
 
 const results = [
   {
@@ -172,9 +176,65 @@ const Expertise = () => {
                 </div>
               </div>
             </CarouselItem>
+            <CarouselItem>
+              <div className="relative aspect-square rounded-2xl overflow-hidden shadow-2xl">
+                <img 
+                  src={photo8} 
+                  alt="Сбор капусты" 
+                  className="w-full h-full object-cover"
+                />
+                <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/80 to-transparent p-6">
+                  <p className="text-white text-sm md:text-lg font-medium">
+                    Сбор пекинской капусты
+                  </p>
+                </div>
+              </div>
+            </CarouselItem>
+            <CarouselItem>
+              <div className="relative aspect-square rounded-2xl overflow-hidden shadow-2xl">
+                <img 
+                  src={photo9} 
+                  alt="Посевная техника" 
+                  className="w-full h-full object-cover"
+                />
+                <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/80 to-transparent p-6">
+                  <p className="text-white text-sm md:text-lg font-medium">
+                    Современная посевная техника в работе
+                  </p>
+                </div>
+              </div>
+            </CarouselItem>
+            <CarouselItem>
+              <div className="relative aspect-square rounded-2xl overflow-hidden shadow-2xl">
+                <img 
+                  src={photo10} 
+                  alt="Морковь на складе" 
+                  className="w-full h-full object-cover"
+                />
+                <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/80 to-transparent p-6">
+                  <p className="text-white text-sm md:text-lg font-medium">
+                    Собранная морковь ждет отправки на складе
+                  </p>
+                </div>
+              </div>
+            </CarouselItem>
+            <CarouselItem>
+              <div className="relative aspect-square rounded-2xl overflow-hidden shadow-2xl">
+                <img 
+                  src={photo11} 
+                  alt="Поле с урожаем" 
+                  className="w-full h-full object-cover"
+                />
+                <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/80 to-transparent p-6">
+                  <p className="text-white text-sm md:text-lg font-medium">
+                    Наши поля - залог богатого урожая
+                  </p>
+                </div>
+              </div>
+            </CarouselItem>
           </CarouselContent>
-          <CarouselPrevious className="hidden md:flex" />
-          <CarouselNext className="hidden md:flex" />
+          <CarouselPrevious className="md:block hidden" />
+          <CarouselNext className="md:block hidden" />
         </Carousel>
         
         {/* Mobile navigation arrows */}
