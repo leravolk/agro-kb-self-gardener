@@ -52,7 +52,7 @@ const Contact = () => {
                 <div>
                   <h3 className="font-semibold text-lg mb-2 text-foreground">Email</h3>
                   <p className="text-muted-foreground">
-                    info@sam-agronom.ru
+                    info@сам-себе-агроном.рф
                   </p>
                 </div>
               </CardContent>
