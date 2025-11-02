@@ -25,8 +25,8 @@ const Footer = () => {
             <h4 className="text-lg font-semibold mb-4">Контакты</h4>
             <ul className="space-y-2 text-primary-foreground/80">
               <li>КБР, Россия</li>
-              <li>+7 (XXX) XXX-XX-XX</li>
-              <li>info@sam-agronom.ru</li>
+              <li>+7 (965) 499-84-64</li>
+              <li>info@сам-себе-агроном.рф</li>
             </ul>
           </div>
         </div>
